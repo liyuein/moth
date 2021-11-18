@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>SILKWORM</title>
+<link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/590043035090550795/910120491086393394/Illustration.png">
+<style>
+    img {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    body {
+        background-color:black;
+        background-image:url(https://i.imgur.com/tMzV3Qw.jpg);
+        background-repeat: no-repeat;
+        background-position:65% 100%;
+        background-attachment:fixed;
+        text-align:center;
+        color:white;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+/* fade in animation */
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<style>
+    div.fadein {
+        animation: fadeIn 1.0s ease forwards;
+        
+    }
+    
+    div.text {
+        top:45%;
+        left:45%;
+        font-size:14px;
+        position:fixed;
+        line-height:30px;
+    }
+    a.one:link, a.one:visited {
+        color:white;
+        text-decoration:none;
+        border:1px solid white;
+        padding:0px;
+        background-color:black;
+        width:100px;
+        margin:5px;
+        display:inline-block;
+        text-align:center;
+    }
+        
+    a.one:hover {
+        color:#666666;
+        border:1px solid #666666;
+    }
+    
+    div.zoom {
+        transition: transform 0.25s, opacity 0.25s;
+        padding:10px;
+        margin:auto;
+        opacity:0.0;
+        position:absolute;
+        right:30px;
+        bottom:20px;
+    }
+    
+    div.zoom:hover {
+        transform: scale(1.2);
+        opacity:1;
+    }
+    
+    h {
+        font-family:'Mate SC';
+        font-size:30px;
+        line-height:0px;
+    }
+
+</style>
+
+<div class="fadein">
+<div class="text">
+<h>silkworm<br>dilemma<br></h>
+<a class="one" href="/about">About</a><br>
+<a class="one" href="/comic">Comic</a><br>
+</div>
+
+<div class="zoom">
+<img width="100px" src="https://c.tenor.com/GNxsqNkI-swAAAAi/%E7%9C%A0%E3%81%84-%E8%B5%B7%E3%81%8D%E3%82%8C%E3%81%AA%E3%81%84.gif"></div>
+
+</div>
+</body>
+</html>
